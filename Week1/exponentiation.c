@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int exponent(int x, int n){
     if (n == 0) return 1;
@@ -6,7 +7,9 @@ int exponent(int x, int n){
     return x * exponent(x, n-1);
 }
 int main(void){
-    int x, n;
-    scanf("%d %d", &x, &n);
+    long long x, n;
+    scanf("%lld %lld", &x, &n);
+    x = abs(x);
+    n = abs(n);
     printf("%d", exponent(x,n));
 }
