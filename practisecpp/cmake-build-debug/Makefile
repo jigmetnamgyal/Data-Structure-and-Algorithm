@@ -143,33 +143,6 @@ practisecpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/build
 .PHONY : practisecpp/fast
 
-Log.o: Log.cpp.o
-
-.PHONY : Log.o
-
-# target to build an object file
-Log.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/Log.cpp.o
-.PHONY : Log.cpp.o
-
-Log.i: Log.cpp.i
-
-.PHONY : Log.i
-
-# target to preprocess a source file
-Log.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/Log.cpp.i
-.PHONY : Log.cpp.i
-
-Log.s: Log.cpp.s
-
-.PHONY : Log.s
-
-# target to generate assembly for a file
-Log.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/Log.cpp.s
-.PHONY : Log.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -197,6 +170,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+math.o: math.cpp.o
+
+.PHONY : math.o
+
+# target to build an object file
+math.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/math.cpp.o
+.PHONY : math.cpp.o
+
+math.i: math.cpp.i
+
+.PHONY : math.i
+
+# target to preprocess a source file
+math.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/math.cpp.i
+.PHONY : math.cpp.i
+
+math.s: math.cpp.s
+
+.PHONY : math.s
+
+# target to generate assembly for a file
+math.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/math.cpp.s
+.PHONY : math.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,12 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... practisecpp"
-	@echo "... Log.o"
-	@echo "... Log.i"
-	@echo "... Log.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... math.o"
+	@echo "... math.i"
+	@echo "... math.s"
 .PHONY : help
 
 

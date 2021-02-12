@@ -90,29 +90,29 @@ CMakeFiles/practisecpp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practisecpp.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jigmetashi/Desktop/DSA/practisecpp/main.cpp -o CMakeFiles/practisecpp.dir/main.cpp.s
 
-CMakeFiles/practisecpp.dir/Log.cpp.o: CMakeFiles/practisecpp.dir/flags.make
-CMakeFiles/practisecpp.dir/Log.cpp.o: ../Log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jigmetashi/Desktop/DSA/practisecpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/practisecpp.dir/Log.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practisecpp.dir/Log.cpp.o -c /Users/jigmetashi/Desktop/DSA/practisecpp/Log.cpp
+CMakeFiles/practisecpp.dir/math.cpp.o: CMakeFiles/practisecpp.dir/flags.make
+CMakeFiles/practisecpp.dir/math.cpp.o: ../math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jigmetashi/Desktop/DSA/practisecpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/practisecpp.dir/math.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practisecpp.dir/math.cpp.o -c /Users/jigmetashi/Desktop/DSA/practisecpp/math.cpp
 
-CMakeFiles/practisecpp.dir/Log.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practisecpp.dir/Log.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jigmetashi/Desktop/DSA/practisecpp/Log.cpp > CMakeFiles/practisecpp.dir/Log.cpp.i
+CMakeFiles/practisecpp.dir/math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practisecpp.dir/math.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jigmetashi/Desktop/DSA/practisecpp/math.cpp > CMakeFiles/practisecpp.dir/math.cpp.i
 
-CMakeFiles/practisecpp.dir/Log.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practisecpp.dir/Log.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jigmetashi/Desktop/DSA/practisecpp/Log.cpp -o CMakeFiles/practisecpp.dir/Log.cpp.s
+CMakeFiles/practisecpp.dir/math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practisecpp.dir/math.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jigmetashi/Desktop/DSA/practisecpp/math.cpp -o CMakeFiles/practisecpp.dir/math.cpp.s
 
 # Object files for target practisecpp
 practisecpp_OBJECTS = \
 "CMakeFiles/practisecpp.dir/main.cpp.o" \
-"CMakeFiles/practisecpp.dir/Log.cpp.o"
+"CMakeFiles/practisecpp.dir/math.cpp.o"
 
 # External object files for target practisecpp
 practisecpp_EXTERNAL_OBJECTS =
 
 practisecpp: CMakeFiles/practisecpp.dir/main.cpp.o
-practisecpp: CMakeFiles/practisecpp.dir/Log.cpp.o
+practisecpp: CMakeFiles/practisecpp.dir/math.cpp.o
 practisecpp: CMakeFiles/practisecpp.dir/build.make
 practisecpp: CMakeFiles/practisecpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jigmetashi/Desktop/DSA/practisecpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable practisecpp"

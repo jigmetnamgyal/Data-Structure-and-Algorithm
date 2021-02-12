@@ -1,9 +1,8 @@
 #include <iostream>
 
-void Log(const char* message);//declaration
+int multiply(int, int);
 
 int main() {
-    Log("My name is Jimmy");
-    std::cout << "Hello, World!" << std::endl;
+    std::cout<<multiply(5,3) << std::endl;
     return 0;
 }

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jigmetashi/Desktop/DSA/practisecpp/Log.cpp" "/Users/jigmetashi/Desktop/DSA/practisecpp/cmake-build-debug/CMakeFiles/practisecpp.dir/Log.cpp.o"
   "/Users/jigmetashi/Desktop/DSA/practisecpp/main.cpp" "/Users/jigmetashi/Desktop/DSA/practisecpp/cmake-build-debug/CMakeFiles/practisecpp.dir/main.cpp.o"
+  "/Users/jigmetashi/Desktop/DSA/practisecpp/math.cpp" "/Users/jigmetashi/Desktop/DSA/practisecpp/cmake-build-debug/CMakeFiles/practisecpp.dir/math.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
