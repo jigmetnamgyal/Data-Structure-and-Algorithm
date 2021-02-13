@@ -3,6 +3,7 @@
 int multiply(int, int);
 
 int main() {
-    std::cout<<multiply(5,3) << std::endl;
+    double a = 65;
+    std::cout<< sizeof a << std::endl;
     return 0;
 }

@@ -83,9 +83,6 @@
 		<Unit filename="/Users/jigmetashi/Desktop/DSA/practisecpp/main.cpp">
 			<Option target="practisecpp"/>
 		</Unit>
-		<Unit filename="/Users/jigmetashi/Desktop/DSA/practisecpp/math.cpp">
-			<Option target="practisecpp"/>
-		</Unit>
 		<Unit filename="/Users/jigmetashi/Desktop/DSA/practisecpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

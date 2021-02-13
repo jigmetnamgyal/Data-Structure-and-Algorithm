@@ -3,5 +3,3 @@
 
 CMakeFiles/practisecpp.dir/main.cpp.o: ../main.cpp
 
-CMakeFiles/practisecpp.dir/math.cpp.o: ../math.cpp
-

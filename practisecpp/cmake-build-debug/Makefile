@@ -170,33 +170,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-math.o: math.cpp.o
-
-.PHONY : math.o
-
-# target to build an object file
-math.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/math.cpp.o
-.PHONY : math.cpp.o
-
-math.i: math.cpp.i
-
-.PHONY : math.i
-
-# target to preprocess a source file
-math.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/math.cpp.i
-.PHONY : math.cpp.i
-
-math.s: math.cpp.s
-
-.PHONY : math.s
-
-# target to generate assembly for a file
-math.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/math.cpp.s
-.PHONY : math.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -209,9 +182,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... math.o"
-	@echo "... math.i"
-	@echo "... math.s"
 .PHONY : help
 
 
