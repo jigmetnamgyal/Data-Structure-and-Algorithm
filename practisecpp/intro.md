@@ -53,7 +53,7 @@
 
 ## Linking error
 
-1) unresoved external error - when definition of the function declaration is not found.
+1) unresolved external error - when definition of the function declaration is not found.
 
 2) duplicate symbols. (same name and same signature) - the linker doesnt know which one to link. 
 ## static
