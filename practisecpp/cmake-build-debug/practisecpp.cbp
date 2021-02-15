@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/jigmetashi/Desktop/DSA/practisecpp/another.cpp">
+			<Option target="practisecpp"/>
+		</Unit>
 		<Unit filename="/Users/jigmetashi/Desktop/DSA/practisecpp/main.cpp">
 			<Option target="practisecpp"/>
 		</Unit>

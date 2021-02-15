@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/practisecpp.dir/another.cpp.o"
   "CMakeFiles/practisecpp.dir/main.cpp.o"
   "practisecpp"
   "practisecpp.pdb"

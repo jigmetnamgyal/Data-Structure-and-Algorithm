@@ -143,6 +143,33 @@ practisecpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/build
 .PHONY : practisecpp/fast
 
+another.o: another.cpp.o
+
+.PHONY : another.o
+
+# target to build an object file
+another.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/another.cpp.o
+.PHONY : another.cpp.o
+
+another.i: another.cpp.i
+
+.PHONY : another.i
+
+# target to preprocess a source file
+another.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/another.cpp.i
+.PHONY : another.cpp.i
+
+another.s: another.cpp.s
+
+.PHONY : another.s
+
+# target to generate assembly for a file
+another.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practisecpp.dir/build.make CMakeFiles/practisecpp.dir/another.cpp.s
+.PHONY : another.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... practisecpp"
+	@echo "... another.o"
+	@echo "... another.i"
+	@echo "... another.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
