@@ -1,21 +1,17 @@
 #include <iostream>
 
-long long exp(long long x, long long y){
+long long exp(long long x, long long y, long long m){
     if(y == 0) return 1;
-    if(y%2 == 0) return exp(x * x, y/2);
-    return x * exp(x,y-1);
+    if(y%2 == 0) return exp((x * x) % m, y/2, m);
+    return (x * exp(x,y-1, m)) % m;
 }
 
-long long sumOfPowers(long long n, long long m){
-    long long sum = exp(1, n) % m + exp(2, n) % m;
-    for(int i = 3; i <= 100; i++){
-        sum += ((i-1) * exp(i, n)); 
-    }
-    return sum % m;
-}
 int main(){
     long long n , m;
     std::cin >> n >> m;
-    long long res = sumOfPowers(n, m);
-    std::cout << res << std::endl;
+    long long sum = exp(1, n, m) + exp(2, n, m);
+    for(int i = 3; i <= 100; i++){
+        sum = (sum + (i-1) * exp(i, n, m)) % m; 
+    }
+    std::cout << sum <<std::endl;
 }
