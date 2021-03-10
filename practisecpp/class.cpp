@@ -7,11 +7,11 @@ class Student{
         int age;
         string first_name, last_name;
     public:
-        Student(){
-            age = 0;
-            first_name.clear();
-            last_name.clear();
-        }
+        // Student(){
+        //     age = 0;
+        //     first_name.clear();
+        //     last_name.clear();
+        // }
         void set_age(int new_age){
             age = new_age;
         }
