@@ -1,7 +1,8 @@
-6
-1 1
-1 2
-2
-1 4
-2
-2
+push 2 
+back 
+pop 
+size 
+pop 
+push 1 
+size 
+exit

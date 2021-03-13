@@ -16,10 +16,19 @@ int main(){
             s.push(value);
             cout << "ok" << endl;
         }else if(str == "pop"){
-            cout << s.top() << endl;
-            s.pop();
+            if(!s.empty()){
+                cout << s.top() << endl;
+                s.pop();
+            }else{
+                cout << "error" << endl;
+            }
         }else if(str == "back"){
-            cout << s.top() << endl;
+            if(!s.empty()){
+                cout << s.top() << endl;
+            }else{
+                cout << "error" << endl;
+            }
+            
         }else if(str == "size"){
             cout << s.size() << endl;
         }else if(str == "clear"){
