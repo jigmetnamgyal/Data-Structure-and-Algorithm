@@ -1,10 +1,301 @@
-9
-pushfront 1 71819
-pushback 2 71820
-pushback 1 1
-popfront 1
-popfront 1
-pushfront 2 10
-pushback 2 11
-popback 2
-popback 2
+300
+push front 628
+push back 784
+pop back
+push front 63
+pop front
+push back 132
+push front 72
+push back 930
+pop front
+push back 864
+push back 770
+pop front
+pop back
+push front 263
+pop back
+push back 742
+push front 659
+push front 780
+pop front
+pop back
+pop front
+pop back
+push back 530
+push back 878
+pop front
+push front 768
+push back 808
+pop front
+push back 574
+pop front
+pop front
+push back 335
+push front 360
+push back 114
+push back 864
+pop front
+pop back
+push back 220
+push front 705
+push back 956
+push back 692
+pop back
+push back 667
+push front 187
+push front 486
+push front 756
+push front 992
+pop front
+push back 470
+push front 892
+push front 100
+push back 240
+pop front
+push front 56
+push front 311
+push front 600
+push front 352
+pop front
+pop front
+push back 466
+push back 905
+push front 332
+push front 296
+pop back
+push back 475
+push back 13
+push front 800
+push back 840
+push front 286
+push back 592
+push front 426
+pop front
+pop front
+push back 308
+pop back
+push back 544
+push back 375
+push front 352
+push front 86
+pop front
+pop front
+pop front
+push front 0
+pop back
+pop front
+push front 245
+push front 310
+push front 897
+push back 338
+push back 352
+push back 375
+push back 296
+push front 502
+push back 492
+push back 869
+pop front
+push front 176
+push back 8
+push back 882
+push back 334
+push back 465
+push back 120
+push front 534
+pop front
+push back 656
+pop back
+pop front
+push front 948
+push back 936
+push front 565
+pop front
+push back 312
+push front 514
+push front 214
+push back 908
+pop back
+push front 307
+pop back
+push front 892
+push back 480
+push front 174
+pop back
+push back 628
+push back 848
+push front 175
+push front 396
+pop front
+push front 406
+pop front
+pop front
+push back 216
+pop front
+push front 840
+pop back
+push back 308
+push back 702
+push back 576
+push front 800
+push front 410
+push front 776
+pop front
+push back 76
+push front 474
+push back 256
+push back 412
+push front 641
+pop back
+push front 616
+push front 253
+push back 280
+push back 772
+push front 374
+push front 412
+push front 200
+push front 640
+push back 708
+push front 50
+push back 56
+push front 872
+push back 600
+push front 248
+push front 166
+push front 217
+push front 352
+push back 805
+push back 5
+pop front
+push front 818
+push back 944
+push front 108
+push back 305
+push back 950
+push back 822
+pop front
+pop front
+push back 892
+push back 900
+push back 606
+push front 404
+push front 288
+pop back
+push back 325
+pop back
+push front 136
+pop front
+pop front
+pop front
+push front 740
+pop back
+pop back
+pop front
+pop front
+push back 529
+push front 946
+push back 576
+push back 80
+push front 831
+push back 612
+push front 711
+push back 480
+push front 601
+pop back
+pop front
+pop back
+pop back
+pop back
+push back 350
+pop front
+push front 556
+pop front
+push back 230
+push back 544
+pop back
+pop front
+push front 750
+pop front
+push front 678
+push back 272
+push front 520
+push back 214
+pop front
+push back 300
+pop back
+push back 599
+pop back
+pop back
+pop front
+push back 973
+push front 175
+push back 968
+pop back
+pop front
+pop front
+push front 240
+pop front
+pop back
+push back 91
+pop front
+push back 944
+pop front
+push back 981
+push front 641
+push front 760
+push front 575
+push back 952
+pop back
+pop back
+push front 816
+push front 28
+pop front
+push back 56
+push back 420
+push front 508
+pop back
+pop front
+push back 545
+push back 375
+push front 500
+push front 977
+push back 248
+push front 326
+push back 576
+pop front
+push back 0
+pop back
+pop front
+pop back
+push back 331
+push front 436
+pop back
+push back 598
+push front 226
+push back 869
+push back 384
+push front 586
+push front 210
+push back 444
+push front 955
+push front 800
+push back 15
+push front 310
+pop front
+pop back
+push back 8
+push front 383
+push front 140
+pop front
+push back 892
+pop front
+push front 837
+pop back
+pop front
+pop back
+push front 243
+pop front
+pop front
+push back 100
+pop front
+push back 492
+push front 528

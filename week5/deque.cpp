@@ -10,19 +10,19 @@ int main(){
      int value;
     while(1){
         cin >> str;
-        if(str == "push_front"){
+        if(str == "push front"){
             cin >> value;
             s.push_front(value);
             cout << "ok" << endl;
-        }else if(str == "push_back"){
+        }else if(str == "push back"){
             cin >> value;
             s.push_back(value);
             cout << "ok" << endl;
         }
-        else if(str == "pop_front"){
+        else if(str == "pop front"){
             cout << s.front() << endl;
             s.pop_front();
-        }else if(str == "pop_back"){
+        }else if(str == "pop back"){
             cout << s.back() << endl;
             s.pop_back();
         }else if(str == "front"){

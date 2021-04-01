@@ -102,33 +102,33 @@ public:
         }
         return Next;
     }
-    int minDepth(TreeNode *tree)
-    {
-        if (tree == NULL)
-            return 0;
-        if (tree->left == NULL)
-            return minDepth(tree->right) + 1;
-        if (tree->right == NULL)
-            return minDepth(tree->left) + 1;
+    // int minDepth(TreeNode *tree)
+    // {
+    //     if (tree == NULL)
+    //         return 0;
+    //     if (tree->left == NULL)
+    //         return minDepth(tree->right) + 1;
+    //     if (tree->right == NULL)
+    //         return minDepth(tree->left) + 1;
 
-        int left = minDepth(tree->left);
-        int right = minDepth(tree->right);
-        return min(left, right) + 1;
-    }
+    //     int left = minDepth(tree->left);
+    //     int right = minDepth(tree->right);
+    //     return min(left, right) + 1;
+    // }
 
-    int maxDepth(TreeNode *tree)
-    {
-        if (tree == NULL)
-            return 0;
-        if (tree->left == NULL)
-            return maxDepth(tree->right) + 1;
-        if (tree->right == NULL)
-            return maxDepth(tree->left) + 1;
+    // int maxDepth(TreeNode *tree)
+    // {
+    //     if (tree == NULL)
+    //         return 0;
+    //     if (tree->left == NULL)
+    //         return maxDepth(tree->right) + 1;
+    //     if (tree->right == NULL)
+    //         return maxDepth(tree->left) + 1;
 
-        int left = maxDepth(tree->left);
-        int right = maxDepth(tree->right);
-        return max(left, right) + 1;
-    }
+    //     int left = maxDepth(tree->left);
+    //     int right = maxDepth(tree->right);
+    //     return max(left, right) + 1;
+    // }
     int sum(TreeNode *tree)
     {
         if (tree == NULL)
